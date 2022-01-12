@@ -2,7 +2,7 @@
 
     $fah = $_POST['fah']; 
     $cel = (($fah-32)*5)/9;
-    
+
 ?>
 
 <!DOCTYPE html>
@@ -14,6 +14,6 @@
     <title>Conversor</title>
 </head>
 <body>
-    <h1><?php echo $cel ?></h1>
+    <h1><?php echo $cel . 'ºC' ?></h1>
 </body>
 </html>
